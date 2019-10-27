@@ -4,13 +4,12 @@
  Purpose: This class has a method that takes three String inputs and depending on the type of operator passed in String "c" it does the operations.
  */
 
-package version2;
 
 public class Operation {
 
-    private int x;
-    private int y;
-    private String c;
+    // private int x;
+    // private int y;
+    // private String c;
 
     public String operationPerformed(String x, String y, String c){
     	int xInt, yInt;

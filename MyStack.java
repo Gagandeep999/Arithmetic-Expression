@@ -3,9 +3,6 @@
  Date: 21 February, 2018
  Purpose: The class MyStack is a generic class that creates a stack based on the data type provided.
  */
-
-package version2;
-
 import java.util.Stack;
 
 public class MyStack<E>  {

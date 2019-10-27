@@ -4,7 +4,6 @@
  Purpose: A class that contains a method that returns the integer value in terms of precedence of operators.
  */
 
-package version2;
 
 public class Precedence {
 

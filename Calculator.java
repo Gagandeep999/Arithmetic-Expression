@@ -4,8 +4,6 @@
  Purpose: Java code that calculates the output of a syntactically arithmeatic expression.
  */
 
-package version2;
-
 import java.util.Stack;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -16,7 +14,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 
-public class Version2 {
+public class Calculator {
     
     //this method is ised to split the expression. It reads character by character and depending on the
     //conditions stores each input into a StringBuilder(which are mutable strings) and when a token is read it
@@ -100,11 +98,11 @@ public class Version2 {
 					continue;
                 //if the array element is a number
 				if (a.matches("[0-9]+")) {
-					System.out.println("pushed in stack "+a);
+					// System.out.println("pushed in stack "+a);
 					stkInt.push(a);
 				}//if the array element is a negative number
 				else if((a.startsWith("-"))&&(a.length()>1)){
-					System.out.println("pushed in stack "+a);
+					// System.out.println("pushed in stack "+a);
 					stkInt.push(a);
 				}//if the  array element is not a digit
 				else if ((a != " ") && (!a.matches("[0-9]+"))) {
